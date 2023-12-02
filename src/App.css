@@ -1,0 +1,83 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-header {
+  background-color: #3498db;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.App-logo {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  color: #ffffff;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.welcome-message {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.logout-button {
+  background-color: #e74c3c;
+  margin-top: 16px;
+}
+
+.logout-button:hover {
+  background-color: #c0392b;
+}
